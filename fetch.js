@@ -98,7 +98,7 @@ if (MEDIUM_USERNAME !== undefined) {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
-    path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
+    path: `/v1/api.json?rss_url=https://medium.com/feed/@tejas303525`,
     port: 443,
     method: "GET"
   };
@@ -108,7 +108,7 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      throw new Error(ERR.requestFailed);
     }
 
     res.on("data", d => {
