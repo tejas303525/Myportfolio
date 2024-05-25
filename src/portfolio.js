@@ -49,11 +49,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I work on developing new websites, upskilling myself and constantly looking forward for new ways to contribute in the tech world and keep gaining knowledge, whether it is via development or by security, I am a huge advocate for cybersecurity and protecting digital footprints, So I often participate in research about security related stuff, participate in CTF events, do some online hacking challenges, etc",  skills: [
+  subTitle:
+    "I work on developing new websites, upskilling myself and constantly looking forward for new ways to contribute in the tech world and keep gaining knowledge, whether it is via development or by security, I am a huge advocate for cybersecurity and protecting digital footprints, So I often participate in research about security related stuff, participate in CTF events, do some online hacking challenges, etc",
+  skills: [
     emoji(
       "⚡ -> Developed few full stack projects and also security tool for demonstrating ARP protocol which also can perform MITM attack"
     ),
-    emoji("⚡ :) Created Web application using the MERN stack and blazor framework"),
+    emoji(
+      "⚡ :) Created Web application using the MERN stack and blazor framework"
+    )
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     // )
@@ -129,7 +133,7 @@ const educationInfo = {
       logo: require("./assets/images/indianschool.png"),
       subHeader: "High school",
       duration: "2007 - 2019",
-      desc: "Was able to be a part of multiple clubs and volunteering services. Took physics,computer and maths in 11th and was able to secure decent grade to join one of th top universities",
+      desc: "Was able to be a part of multiple clubs and volunteering services. Took physics,computer and maths in 11th and was able to secure decent grade to join one of th top universities"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
@@ -183,7 +187,7 @@ const workExperiences = {
         "Implemented Mongodb as their database to access their data anytime anywhere",
         "Uploaded to a free hosting service in the internet along with their database to access their datas"
       ]
-    },
+    }
     // {
     //   role: "Front-End Developer",
     //   company: "Quora",
@@ -253,8 +257,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Certified in cybersecurity(ISC2)",
-      subtitle:
-        "I am certified in cybersecurity by the ISC^2 organisation",
+      subtitle: "I am certified in cybersecurity by the ISC^2 organisation",
       image: require("./assets/images/cc.png"),
       imageAlt: "Certified in cybersecurity by isc^2",
       footerLink: [
@@ -265,7 +268,7 @@ const achievementSection = {
         {
           name: "Badge",
           url: "https://www.credly.com/badges/a25f9bee-4e72-44f8-8228-f2ea3dc7a747/public_url"
-        },
+        }
         // {
         //   name: "Google Code-in Blog",
         //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
@@ -293,7 +296,7 @@ const achievementSection = {
       imageAlt: "IBM Logo",
       footerLink: [
         {
-          name: "Certification", 
+          name: "Certification",
           url: "https://coursera.org/share/228e550597fc99e887a7533ffdbc1a33"
         },
         {
@@ -309,20 +312,21 @@ const achievementSection = {
       imageAlt: "Fortinet Logo",
       footerLink: [
         {
-          name: "Certification", 
-        url: "https://drive.google.com/file/d/1toJ5aXESe8r8YYeHfj1bZqH_FqeCz3mb/view?usp=sharing"
-      },
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1toJ5aXESe8r8YYeHfj1bZqH_FqeCz3mb/view?usp=sharing"
+        }
       ]
     },
     {
       title: "Cybersecurity Roles, Processes & Operating System Security",
-      subtitle: "Completed Certifcation from Coursera for Cybersecurity Roles, Processes & Operating System Security",
+      subtitle:
+        "Completed Certifcation from Coursera for Cybersecurity Roles, Processes & Operating System Security",
       image: require("./assets/images/cyberrole.png"),
       imageAlt: "IBM Logo",
       footerLink: [
         {
-          name: "Badge", 
-        url: "https://www.credly.com/badges/18b5ed2f-f9ab-432e-888d-2de2142ae8ab/public_url"
+          name: "Badge",
+          url: "https://www.credly.com/badges/18b5ed2f-f9ab-432e-888d-2de2142ae8ab/public_url"
         },
         {
           name: "Certification",
@@ -332,12 +336,13 @@ const achievementSection = {
     },
     {
       title: "Python Programming Essentials",
-      subtitle: "Completed Certifcation from Coursera for Python Programming Essentials",
+      subtitle:
+        "Completed Certifcation from Coursera for Python Programming Essentials",
       image: require("./assets/images/python.png"),
       imageAlt: "Coursera cert ",
       footerLink: [
         // {
-        //   name: "Badge", 
+        //   name: "Badge",
         // url: "https://www.credly.com/badges/18b5ed2f-f9ab-432e-888d-2de2142ae8ab/public_url"
         // },
         {
@@ -348,12 +353,13 @@ const achievementSection = {
     },
     {
       title: "Web Application Security Testing with Burp Suite",
-      subtitle: "Completed Certifcation from Coursera for Web Application Security Testing with Burp Suite",
+      subtitle:
+        "Completed Certifcation from Coursera for Web Application Security Testing with Burp Suite",
       image: require("./assets/images/bp.png"),
       imageAlt: "Coursera cert ",
       footerLink: [
         // {
-        //   name: "Badge", 
+        //   name: "Badge",
         // url: "https://www.credly.com/badges/18b5ed2f-f9ab-432e-888d-2de2142ae8ab/public_url"
         // },
         {
@@ -361,7 +367,7 @@ const achievementSection = {
           url: "/account/accomplishments/?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=project"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -373,20 +379,20 @@ const blogSection = {
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
+  // blogs: [
+  //   {
+  //     url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+  //     title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+  //     description:
+  //       "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+  //   },
+  //   {
+  //     url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+  //     title: "Why REACT is The Best?",
+  //     description:
+  //       "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+  //   }
+  // ],
   display: true // Set false to hide this section, defaults to true
 };
 
