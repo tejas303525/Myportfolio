@@ -1,6 +1,6 @@
 const fs = require("fs");
 const https = require("https");
-const process = require("process");
+process = require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
@@ -95,6 +95,9 @@ if (USE_GITHUB_DATA === "true") {
 }
 
 if (MEDIUM_USERNAME !== undefined) {
+  const mediumUrl = `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`;
+  console.log("Medium URL:", mediumUrl);
+
   const options = {
     hostname: "api.rss2json.com",
     path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
