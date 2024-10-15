@@ -26,7 +26,7 @@ const greeting = {
     "I am a full-stack developer 🚀 with a BTech in Information Technology, specializing in web technologies and cybersecurity. My experience includes web development,database management, and API integration. I've also contributed to building a cybersecurity team at my university. I am eager to join an organization that values creativity, diversity, and collaboration."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1RvnR31WoqMEZsfrR_0GQ6pKtTeWL2zl-/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1WID3KvLPhpdycg-jjKlZxqSc5RQ5SJlD/view?usp=drive_linkg", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
