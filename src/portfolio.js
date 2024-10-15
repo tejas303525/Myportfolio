@@ -193,11 +193,17 @@ const workExperiences = {
       company: "Dora Infotech",
       companylogo: require("./assets/images/dora.png"),
       date: "July 2024 – Present",
-      desc: "Worked as an intern for a company in dubai for 4 months , developing a web application for managing their day to day tasks.",
+      desc: "Working as a IT support engineer, providing support to various aspects in the field on IT networking. From installation to maintainence of clients software and hardware applications",
       descBullets: [
-        "Developed a program using Reactjs for frontend, node js for backend that serves the company to manage their day-to-day tasks easily        ",
-        "Implemented Mongodb as their database to access their data anytime anywhere",
-        "Uploaded to a free hosting service in the internet along with their database to access their datas"
+        "Experienced in providing technical support, troubleshooting, and system maintenance.",
+        "Operating Systems: Proficient in Windows and Linux environments.",
+        "Networking: Strong knowledge of TCP/IP, DNS, DHCP and VPN",
+        "Hardware: Expertise in diagnosing and repairing hardware issues for desktops, laptops, and mobile devices.",
+        "Software: Experience with Microsoft Office Suite, remote desktop applications, and various IT service management tools.",
+        "Scripting: Basic to intermediate skills in scripting languages like zsh and Bash.",
+        "Virtualization: Hands-on experience with virtualbox",
+        "System Maintenance: Conducted regular system updates, patches, and backups to ensure optimal performance and security.",
+        "Customer Service: Maintained a high level of customer satisfaction through effective communication and problem-solving skills."
       ]
     }
     // {
