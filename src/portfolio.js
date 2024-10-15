@@ -183,6 +183,18 @@ const workExperiences = {
       date: "Feb 2023 – May 2023",
       desc: "Worked as an intern for a company in dubai for 4 months , developing a web application for managing their day to day tasks.",
       descBullets: [
+        " a program using Reactjs for frontend, node js for backend that serves the company to manage their day-to-day tasks easily        ",
+        "Implemented Mongodb as their database to access their data anytime anywhere",
+        "Uploaded to a free hosting service in the internet along with their database to access their datas"
+      ]
+    },
+    {
+      role: "IT support Engineer",
+      company: "Dora Infotech",
+      companylogo: require("./assets/images/dora.png"),
+      date: "July 2024 – Present",
+      desc: "Worked as an intern for a company in dubai for 4 months , developing a web application for managing their day to day tasks.",
+      descBullets: [
         "Developed a program using Reactjs for frontend, node js for backend that serves the company to manage their day-to-day tasks easily        ",
         "Implemented Mongodb as their database to access their data anytime anywhere",
         "Uploaded to a free hosting service in the internet along with their database to access their datas"
